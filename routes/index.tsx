@@ -1,5 +1,5 @@
 
-export function handler(_req: Request) {
-  return Response.redirect("https://example.com", 307);
-}
+export default function A(){
+  return <>hi</>
+} 
 
