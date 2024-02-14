@@ -12,6 +12,7 @@ import * as $test from "./routes/test.tsx";
 import * as $Context from "./islands/Context.tsx";
 import * as $Form1 from "./islands/Form1.tsx";
 import * as $Form2 from "./islands/Form2.tsx";
+import * as $test_1 from "./islands/test.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -28,6 +29,7 @@ const manifest = {
     "./islands/Context.tsx": $Context,
     "./islands/Form1.tsx": $Form1,
     "./islands/Form2.tsx": $Form2,
+    "./islands/test.tsx": $test_1,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

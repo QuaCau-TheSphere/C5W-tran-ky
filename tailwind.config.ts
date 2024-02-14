@@ -5,7 +5,7 @@ export default {
   content: [
     "{routes,islands,components}/**/*.{ts,tsx}",
   ],
-  // plugins: [typography, daisyui],
+  plugins: [typography, daisyui],
   daisyui: {
     themes: ["light", "dark", "lemonade", "autumn", "aqua", "nord" ],
     logs: false
